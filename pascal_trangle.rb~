@@ -1,0 +1,3 @@
+puts "enter number of lines"
+STDOUT.flush
+gets.chomp.to_i.times {|i| puts "  " * (a - i) << "* " * i << "* " * i}

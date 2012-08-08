@@ -1,0 +1,12 @@
+
+
+def fibo
+  sum = sum1 = 1
+  a =  yield sum, sum1
+  puts a
+end
+
+
+fibo do |sum,sum1|
+  [sum,sum1]
+end

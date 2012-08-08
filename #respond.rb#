@@ -1,0 +1,9 @@
+class Respon  def talk
+    puts "asdasd"
+  end
+end
+
+r = Respond.new
+r.talk
+puts r.respond_to?("talk")
+puts r.respond_to?("talk123")

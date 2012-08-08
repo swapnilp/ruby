@@ -1,0 +1,10 @@
+def add(a,b)
+  i = 10
+  puts "i = #{i}"
+  yield i 
+  a + b
+end
+
+a = 110
+puts add(1,2) {|i| puts "#{i}  #{a}"}
+
